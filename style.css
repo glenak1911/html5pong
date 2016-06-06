@@ -1,0 +1,15 @@
+*{
+	margin:0;
+	padding:0;
+	background-image:url('stone_texture566.jpg');
+}
+
+#canvasContainer{
+	margin:0 auto;
+	width:90vh;
+}
+#gameCanvas{
+	width:80vh;
+	height:60vh;
+	padding:10px;
+}
