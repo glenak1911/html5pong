@@ -1,6 +1,6 @@
 var canvas;
 var canvasContext;
-var ball;
+var ballx;
 
 window.onload = function game(){
 	canvas = document.getElementById('gameCanvas');
@@ -9,11 +9,8 @@ window.onload = function game(){
 }
 
 function drawElements(){
-	ball+=5;
 	canvasContext.fillStyle = 'black';
 	canvasContext.fillRect(0,0,canvas.width,canvas.height);
-	canvasContext.fillStyle = 'white';
-	canvasContext.fillRect(255,210,200,200);
 	canvasContext.fillStyle = 'red';
-	canvasContext.fillRect(ballx,100,10,10);
+	canvasContext.fillRect(255,210,200,200);
 }
