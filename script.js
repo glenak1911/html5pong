@@ -10,7 +10,7 @@ window.onload = function game(){
 
 function drawElements(){
 	canvasContext.fillStyle = 'black';
-	canvasContext.fillRect(0,0,canvas.width,canvas.height);
+	canvasContext.fillRect(0, 0, canvas.width, canvas.height);
 	canvasContext.fillStyle = 'red';
-	canvasContext.fillRect(255,210,200,200);
+	canvasContext.fillRect(100, 100, 25, 20);
 }
